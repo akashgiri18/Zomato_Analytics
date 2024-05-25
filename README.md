@@ -34,13 +34,7 @@ The included SQL scripts perform various analyses on the Zomato data.  Each scri
 * **Points Earned Analysis (Optional):** Analyzes points earned by customers based on a hypothetical points system (requires additional logic).
 * **Gold Member vs. Non-Member Ranking:** Assigns ranks to transactions, differentiating between Zomato Gold members and non-members. (Script generates a table with `userid`, `created_date`, `product_id`, `rnk`, and `gold_signup_date` columns showing ranked transactions with gold member status)
 
-**Using the Code:**
 
-1. Clone this repository to your local machine.
-2. Import the SQL scripts into your preferred SQL development environment.
-3. Ensure your database schema matches the one described above.
-4. Execute the desired scripts to generate the corresponding result tables.
-5. Analyze the result tables to gain insights into customer behavior and sales trends.
 
 **Further Exploration:**
 
@@ -51,4 +45,4 @@ This project provides a springboard for exploring Zomato user behavior further. 
 * Evaluating the impact of Zomato Gold membership on customer retention and spending.
 * Creating visualizations to represent the findings effectively.
 
-By delving deeper into the data, you can gain valuable insights to improve customer experience, optimize Zomato's offerings, and drive business growth.
+By delving deeper into the data, we can gain valuable insights to improve customer experience, optimize Zomato's offerings, and drive business growth.
